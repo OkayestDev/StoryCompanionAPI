@@ -1,0 +1,27 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.labelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.isJustGame {
+    font-size: 28px;
+}
+
+.storyCompanion {
+    font-size: 48px;
+}
+
+.isJustGameHeart {
+    margin-top: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{# A lot of email providers block css - inline it is! #}
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Story Companion</title>
+    </head>
+    <body>
+        <div
+            style="
+                background-color: #F2F2F2;
+                border-radius: 8px;
+                width: 600px;
+                padding: 10px;
+            "
+        >
+            <div
+                style="
+                    font-size: 28px;
+                    color: #2f95dc;
+                    font-weight: bold;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                "
+            >
+                {{ title }}
+            </div>
+            <div
+                style="
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                "
+            >
+                From {{ email }}
+            </div>
+            <div
+                style="
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                "
+            >
+                {{ description }}
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Story Companion</title>
+    </head>
+    <body>
+        <div
+            style="
+                background-color: #F2F2F2;
+                border-radius: 8px;
+                width: 600px;
+                padding: 10px;
+            "
+        >
+            <div
+                style="
+                    font-size: 28px;
+                    color: #2f95dc;
+                    font-weight: bold;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                "
+            >
+                Story Companion
+            </div>
+            <div
+                style="
+                    margin-bottom: 30px;
+                    margin-top: 30px;
+                "
+            >
+                Your account has been successfully created.
+            </div>
+            <div>
+                Email: {{ email }}
+            </div>
+            <div 
+                style="margin-bottom: 30px;"
+            >
+                Password: {{ password }}
+            </div>
+            <div>
+                Thank you, <br/>
+                Story Companion
+            </div>
+            <div 
+                style="
+                    margin-top: 15px;
+                    padding-top: 10px;
+                    font-size: 11px;
+                "
+            >
+                <div>
+                    Have any feature requests? I would love to build them!
+                </div>
+                <div>
+                    Have any bugs to report? I would love to fix them!
+                </div>
+                <div 
+                    style="
+                        display: flex;
+                        align-items: center
+                    "
+                >
+                    Much 
+                    <img
+                        style="
+                            margin-right: 1px;
+                            margin-left: 3px;
+                            width: 16px;
+                            height: 16px;
+                        "
+                        alt="love" 
+                        src="{{ heart }}"
+                    />
+                    , Story Companion
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

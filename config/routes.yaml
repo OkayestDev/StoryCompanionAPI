@@ -1,0 +1,202 @@
+#Index
+homepage:
+  path: /
+  controller: App\Controller\HomeController::index
+
+#User
+user_creation:
+  path: /user/creation
+  controller: App\Controller\UserController::creation
+
+user_login:
+  path: /user/login
+  controller: App\Controller\UserController::login
+
+user_password_reset:
+  path: /user/password_reset
+  controller: App\Controller\UserController::passwordReset
+
+user_change_password:
+  path: /user/change_password
+  controller: App\Controller\UserController::changePassword
+
+user_change_email:
+  path: /user/change_email
+  controller: App\Controller\UserController::changeEmail
+
+#Story
+story_creation:
+  path: /story/creation
+  controller: App\Controller\StoryController::creation
+
+story_view:
+  path: /story/view
+  controller: App\Controller\StoryController::view
+
+story_delete:
+  path: /story/delete
+  controller: App\Controller\StoryController::delete
+
+story_edit:
+  path: /story/edit
+  controller: App\Controller\StoryController::edit
+
+#Chapter
+chapter_creation:
+  path: /chapter/creation
+  controller: App\Controller\ChapterController::creation
+
+chapter_view:
+  path: /chapter/view
+  controller: App\Controller\ChapterController::view
+
+chapter_delete:
+  path: /chapter/delete
+  controller: App\Controller\ChapterController::delete
+
+chapter_edit:
+  path: /chapter/edit
+  controller: App\Controller\ChapterController::edit
+
+chapter_write:
+  path: /chapter/write
+  controller: App\Controller\ChapterController::write
+
+chapter_export:
+  path: /chapter/export
+  controller: App\Controller\ChapterController::export
+
+#Plot
+plot_creation:
+  path: /plot/creation
+  controller: App\Controller\PlotController::creation
+
+plot_view:
+  path: /plot/view
+  controller: App\Controller\PlotController::view
+
+plot_delete:
+  path: /plot/delete
+  controller: App\Controller\PlotController::delete
+
+plot_edit:
+  path: /plot/edit
+  controller: App\Controller\PlotController::edit
+
+plot_export:
+  path: /plot/export
+  controller: App\Controller\PlotController::export
+
+#Person
+person_creation:
+  path: /person/creation
+  controller: App\Controller\PersonController::creation
+
+person_view:
+  path: /person/view
+  controller: App\Controller\PersonController::view
+
+person_delete:
+  path: /person/delete
+  controller: App\Controller\PersonController::delete
+
+person_edit:
+  path: /person/edit
+  controller: App\Controller\PersonController::edit
+
+person_moveUp:
+  path: /person/move_up
+  controller: App\Controller\PersonController::moveUp
+
+person_moveDown:
+  path: /person/move_down
+  controller: App\Controller\PersonController::moveDown
+
+person_export:
+  path: /person/export
+  controller: App\Controller\PersonController::export
+
+#Note
+note_creation:
+  path: /note/creation
+  controller: App\Controller\NoteController::creation
+
+note_view:
+  path: /note/view
+  controller: App\Controller\NoteController::view
+
+note_delete:
+  path: /note/delete
+  controller: App\Controller\NoteController::delete
+
+note_edit:
+  path: /note/edit
+  controller: App\Controller\NoteController::edit
+
+note_export:
+  path: /note/export
+  controller: App\Controller\NoteController::export
+
+#Draft
+draft_creation:
+  path: /draft/creation
+  controller: App\Controller\DraftController::creation
+
+draft_view:
+  path: /draft/view
+  controller: App\Controller\DraftController::view
+
+draft_delete:
+  path: /draft/delete
+  controller: App\Controller\DraftController::delete
+
+draft_edit:
+  path: /draft/edit
+  controller: App\Controller\DraftController::edit
+
+draft_export:
+  path: /draft/export
+  controller: App\Controller\DraftController::export
+
+# Tag
+tag_creation:
+  path: /tag/creation
+  controller: App\Controller\TagController::creation
+
+tag_view:
+  path: /tag/view
+  controller: App\Controller\TagController::view
+
+tag_delete:
+  path: /tag/delete
+  controller: App\Controller\TagController::delete
+
+tag_edit:
+  path: /tag/edit
+  controller: App\Controller\TagController::edit
+
+# Settings
+setting_feature:
+  path: /settings/feature
+  controller: App\Controller\SettingsController::feature
+
+setting_bug:
+  path: /settings/bug
+  controller: App\Controller\SettingsController::bug
+
+# Prompt
+prompt_creation:
+  path: /prompt/creation
+  controller: App\Controller\PromptController::creation
+
+prompt_view:
+  path: /prompt/view
+  controller: App\Controller\PromptController::view
+
+prompt_downvote:
+  path: /prompt/down_vote
+  controller: App\Controller\PromptController::downVote
+
+prompt_to_story:
+  path: /prompt/to_story
+  controller: App\Controller\PromptController::toStory
